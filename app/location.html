@@ -5,7 +5,8 @@ engine: ejs
 current: location
 ---
 <header class="banner flex align-items-flex-end">
-    <div class="container flex w-100 align-items-cener">
+    <div class="container flex w-100 align-items-cener" data-aos="fade-up" data-aos-duration="1000"
+        data-aos-delay="100">
         <h2>門市據點</h2>
         <img src="assets/images/icon-location.svg" alt="location-icon">
     </div>
@@ -14,14 +15,16 @@ current: location
 
 <main>
     <section class="location-card container">
-        <form action="location.html" class="location-form flex align-items-cener">
+        <form action="location.html" class="location-form flex align-items-cener" data-aos="fade-up"
+            data-aos-duration="1000" data-aos-delay="200">
             <label for="location">選擇地區</label>
             <select name="location" id="location">
                 <option value="台北市">台北市</option>
                 <option value="高雄市">高雄市</option>
             </select>
         </form>
-        <ul class="flex flex-wrap jucetify-space-between">
+        <ul class="flex flex-wrap jucetify-space-between" data-aos="fade-up" data-aos-duration="1000"
+            data-aos-delay="300">
             <!-- pc-row-1 -->
             <li class="card-items col-4 col-md-6 col-sm-12">
                 <img src="assets/images/locate1.jpeg" alt="台北中山旗艦店">
