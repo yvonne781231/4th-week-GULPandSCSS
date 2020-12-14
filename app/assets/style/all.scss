@@ -1,14 +1,17 @@
 // base
 @import 'base/reset';
-@import 'base/variable';
 @import 'base/mixin';
 @import 'base/extend';
 @import 'base/base';
+//utilities
+@import 'utilities/variable';
+@import 'utilities/space';
 // layout
 @import 'layout/header';
 @import 'layout/footer';
 @import 'layout/banner';
-@import 'layout/pages-btn';
+//components
+@import 'components/pages-btn';
 // pages
 @import 'pages/index';
 @import 'pages/products';
